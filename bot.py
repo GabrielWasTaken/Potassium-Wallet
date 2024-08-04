@@ -1,6 +1,6 @@
 import json
 from telegram.ext import Updater, CommandHandler, JobQueue
-from pippin import Wallet, Client
+from pippin_wallet import Wallet, Client
 
 # Load configuration
 with open('config.json') as config_file:
